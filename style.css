@@ -1,4 +1,69 @@
-html{
-    background-color: #666;
+html {
     color: #FFF;
+    font-family: "Oswald", sans-serif;
+    text-shadow: 0 0 10px rgba(72, 71, 69, 0.8);
+    letter-spacing: 2px;
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oswald-small {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    background-image: url("photos/sunset.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.productsInput, .productsOutput{
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    font-weight: 500;
+
+}
+
+.processProducts {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+
+    text-shadow: 0 0 10px rgba(25, 25, 24, 0.8);
+}
+
+.cactus-icon {
+    width: 50px;
+    height: auto;
+    animation: spin 3s ease-in-out infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+h1, .cactus-icon {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
