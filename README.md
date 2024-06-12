@@ -12,6 +12,8 @@ The processProducts function takes three parameters: products (an array of produ
 
 Within this function, the array of products is iterated over to filter out products that are out of stock, calculate the total value of each in-stock product, and apply a discount to products in the specified category. The final array is formatted to include only the product name, category, and discounted total value.
 
+This is the link to view this page through GitHub Pages: https://morning-dove.github.io/JS-Product_Processing/
+
 
 
 
